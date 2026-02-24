@@ -2,10 +2,10 @@
 Breach Stats Explorer Interactive data dashboard that consumes a real-world cyber security API to explore breach incidents by company and year. Demonstrates API integration, async JavaScript, filtering/search logic, UI state management, and security-focused UX.
 
 ## 🚀 Live Demo  
- https://YOUR_USERNAME.github.io/breach-stats-explorer/
+ https://jesslum.github.io/Breach-Stats-Explorer/
 
 ## 💻 GitHub Repo  
- https://github.com/YOUR_USERNAME/breach-stats-explorer
+ https://github.com/jesslum/Breach-Stats-Explorer
 
 ---
 
