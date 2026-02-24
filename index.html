@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Breach Stats Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="container">
+        <h1>📊 Breach Stats Explorer</h1>
+        <p>Explore real-world data breaches by company and year.</p>
+
+        <div class="controls">
+            <input id="searchInput" placeholder="Search company..." />
+            <select id="yearFilter">
+                <option value="all">All years</option>
+            </select>
+            <p id="status" class="status">Loading breaches…</p>
+        </div>
+
+        <div class="stats">
+            <p>breaches found</p>
+        </div>
+
+        <div id="breachList" class="breach-list"></div>
+  </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.controls input,
+.controls select {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    max-width: 240px;
+    }
+
+.breach-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    }
+
+.breach {
+    background: rgba(0,0,0,.55);
+    border: 1px solid rgba(0,198,255,.35);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.status {
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.details {
+    margin-top: .5rem;
+    font-size: .9rem;
+    opacity: .9;
+}
+
+.hidden {
+    display: none;
+}
+
+.details-btn {
+    background: transparent;
+    color: #7fe7ff;
+    border: 1px solid rgba(127,231,255,.5);
+    padding: 6px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.container {
+    padding-top: 1.25rem; /* instead of large padding */
+}
+
+.breach-list {
+    margin-top: 1rem; /* bring cards closer to inputs */
+}
+
+.stats {
+    margin: .5rem 0 1rem;
+    opacity: .9;
+    }
+
